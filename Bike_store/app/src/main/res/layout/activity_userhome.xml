@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bike"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Userhome">
+
+    <Button
+        android:id="@+id/userprofile"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Profile" />
+
+    <Button
+        android:id="@+id/viewvehicle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Shop" />
+
+    <Button
+        android:id="@+id/viewbookings"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Bike Request" />
+
+    <Button
+        android:id="@+id/searchnearbunk"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Blog" />
+
+    <Button
+        android:id="@+id/Viewrechargerequests"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="view products" />
+
+    <Button
+        android:id="@+id/searchmechanic"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Cart" />
+
+    <Button
+        android:id="@+id/viewrequest"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View Service" />
+
+    <Button
+        android:id="@+id/searchspareparts"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="View service request" />
+
+<!--    <Button-->
+<!--        android:id="@+id/viewordereditems"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:text="Add vehicle" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/sendcomplaint"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:text="View Other Vehicle" />-->
+<!--    <Button-->
+<!--        android:id="@+id/logout"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:text="View Rent Request" />-->
+    <Button
+        android:id="@+id/complaint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Send Complaints" />
+    <Button
+        android:id="@+id/logout1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:text="Logout" />
+</LinearLayout>

@@ -1,0 +1,114 @@
+{% include 'adminheader.html'%}
+
+
+<style type="text/css">
+	
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+      color: black
+}
+
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+     background-color: #030303;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+</style>
+
+<!-- banner section -->
+<div class="demo-2">
+    <div id="slider" class="sl-slider-wrapper" style="height: 200px">
+        <div class="sl-slider">
+           
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-1"></div>
+                    <div class="container">
+                      
+                    </div>
+                </div>
+            </div>
+   
+        <nav id="nav-dots" class="nav-dots">
+           
+        </nav>
+    </div><!-- /slider-wrapper -->
+</div>  
+<!-- /banner section -->
+
+
+<br><br><br><br><br><br>
+<center>
+	<h1 style="color: black">view Payment</h1>
+	<form>
+			<table class="styled-table">
+    <thead>
+			<tr>
+				<th>sino</th>
+				
+				
+				
+				<th>User Name</th>
+				
+				<th>Type</th>
+				<th>Amount</th>
+                <th>Date</th>
+				
+				
+			</tr>
+		</thead>
+			{% for row in data['viewpayment']%}
+
+			 <tbody>
+    	<tr>
+    		<td>{{loop.index}}</td>
+    		
+    		<td>{{row['fname'] }}</td>
+    		<td>{{row['type'] }}</td>
+            
+            <td>{{row['amount'] }}</td>
+            
+            <td>{{row['date'] }}</td>
+            
+    	
+    	      
+    		
+    	</tr>
+    	{% endfor %}
+    </tbody>
+   
+		</table>
+	</form>
+</center>
+{% include 'footer.html'%}

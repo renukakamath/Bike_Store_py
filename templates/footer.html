@@ -1,0 +1,174 @@
+
+  {% with messages = get_flashed_messages() %}
+  {% if messages %}
+  <ul class="flashes">
+      {% for message in messages %}
+      <script type="text/javascript">alert("{{message}}")</script>
+      {% endfor %}
+  </ul>
+  {% endif %}
+  {% endwith %}
+  
+
+
+<!-- last section -->
+
+<!-- last section -->
+<!-- back to top -->
+<a href="#0" class="cd-top">Top</a>
+<!-- /back to top -->
+<!-- js files -->
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/SmoothScroll.min.js"></script>
+<script src="/static/js/top.js"></script> 
+<script src="/static/js/modernizr.min.js"></script>
+<script src="/static/js/index.js"></script>
+<script src="/static/js/jarallax.js"></script>
+<script type="text/javascript">
+    /* init Jarallax */
+	$('.jarallax').jarallax({
+        speed: 0.6,
+        imgWidth: 1366,
+        imgHeight: 768
+    })
+</script>
+<script src='js/aos.js'></script>
+<script src="/static/js/aos2.js"></script>
+<!-- js for recent pics section -->
+<script src="/static/js/jquery.mb.thumbGallery.js"></script>
+<script>
+
+    var isIframe = function() {
+        var a = !1;
+        try {
+            self.location.href != top.location.href && ( a = !0 )
+        } catch ( b ) {
+            a = !0
+        }
+        return a
+    };
+    if ( !isIframe() ) {
+        var logo = $( "<a href='#' style='position:absolute;top:0;z-index:1000'><img id='logo' border='0' src='#' alt='mb.ideas.repository'></a>" );
+        $( "#wrapper" ).prepend( logo ), $( "#logo" ).fadeIn()
+    }
+
+    /* Extend or modify effects */
+    jQuery.thumbGrid.transitions.fadeIn = {in: {x:"0", opacity:0, scale:0.9}, out: {x:0, opacity:0}};
+    jQuery.thumbGrid.transitions.fadeOut = {in: {x:"0", opacity:0}, out: {x:0, scale:0.9, opacity:0}};
+    jQuery.thumbGrid.transitions.slideLeft = {in: {x:$(window).width(), opacity:0}, out: {x:-$(window).width(), opacity:0}, ease:"cubic-bezier(.43,.18,.81,1.07)"};
+    jQuery.thumbGrid.transitions.slideRight = {in: {x:0, opacity:0}, out: {x:$(window).width(), opacity:0}, ease:"cubic-bezier(.43,.18,.81,1.07)"};
+
+    /* Initialize the gallery */
+    jQuery("#thumbGrid").thumbGrid();
+
+    /* customizer */
+    jQuery("#effect").on("change",function(){
+        var x = $(this).val();
+        jQuery("#thumbGrid").data("nav_effect", x);
+    });
+
+    jQuery("#delay").on("change",function(){
+        var x = parseFloat($(this).val());
+        jQuery("#thumbGrid").data("nav_delay", x);
+    });
+
+    jQuery("#timing").on("change",function(){
+        var x = parseFloat($(this).val());
+        jQuery("#thumbGrid").data("nav_timing", x);
+    });
+
+    if(jQuery.isMobile){
+        jQuery("body").css({marginBottom: 140})
+    }
+
+
+</script>
+<!-- /js for recent pics section -->
+<!-- js for testimonials -->
+<script src="/static/js/responsiveslides.min.js"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        maxwidth: 800,
+        speed: 800
+      });
+	});  
+</script>
+<!-- /js for testimonials -->
+<!-- js for banner section -->
+<script type="text/javascript" src="/static/js/jquery.ba-cond.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery.slitslider.js"></script>
+<script type="text/javascript">	
+			$(function() {
+			
+				var Page = (function() {
+
+					var $nav = $( '#nav-dots > span' ),
+						slitslider = $( '#slider' ).slitslider( {
+							onBeforeChange : function( slide, pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slitslider.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slitslider.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+
+				/**
+				 * Notes: 
+				 * 
+				 * example how to add items:
+				 */
+
+				/*
+				
+				var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+				
+				// call the plugin's add method
+				ss.add($items);
+
+				*/
+			
+			});
+</script>
+<!-- /js for banner section -->
+</body>
+</html>

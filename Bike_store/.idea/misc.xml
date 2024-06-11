@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_addcart.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_addcomments.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_addrent.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_addvehicle.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_cartpayment.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_ipsettings.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_login.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_main.xml" value="0.10597826086956522" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_makepayment.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_rate.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_rateing.xml" value="0.12409420289855072" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_registration.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_rentmakepayment.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_sendcomplaint.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_sendservicerequest.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_updateprofile.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_user_viewshop.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_userhome.xml" value="0.22" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_usermakepayment.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_userviewbike.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_userviewblog.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_userviewservice.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewbikeimage.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewbikeimg.xml" value="0.1" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewbikerequest.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewbikesimg.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewblogs.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewcart.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewmyrendrequest.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewothervehicle.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewpayment.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewproduct.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewservicerequest.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewshop.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/activity_viewtimeslot.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/content_viewbikeimg.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/cust_images.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/cust_images1.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/cust_images2.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/cust_images3.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/custtext.xml" value="0.1308876811594203" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/fragment_first.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/renuk/AndroidStudioProjects/Bike_store/app/src/main/res/layout/fragment_second.xml" value="0.1539855072463768" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

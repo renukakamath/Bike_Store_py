@@ -1,0 +1,124 @@
+{% include 'adminheader.html'%}
+
+
+<style type="text/css">
+	
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    color: black
+}
+
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+     background-color: #030303;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+</style>
+
+
+
+<!-- banner section -->
+<div class="demo-2">
+    <div id="slider" class="sl-slider-wrapper" style="height: 200px">
+        <div class="sl-slider">
+           
+                <div class="sl-slide-inner">
+                    <div class="bg-img bg-img-1"></div>
+                    <div class="container">
+                      
+                    </div>
+                </div>
+            </div>
+   
+        <nav id="nav-dots" class="nav-dots">
+           
+        </nav>
+    </div><!-- /slider-wrapper -->
+</div>  
+<!-- /banner section -->
+
+
+<br><br><br><br><br><br><br>                 
+<center>
+    <h1 style="color: black">view Bike</h1>
+    <form>
+            <table class="styled-table">
+    <thead>
+            <tr>
+                <th>sino</th>
+                
+                
+                <th>Shop Name</th>
+                <th>Bike </th>
+                
+                <th>Model Name</th>
+                <th>Brand</th>
+                <th>Color</th>
+                <th>Image</th>
+                <th>Amount</th>
+                
+            </tr>
+        </thead>
+            {% for row in data['viewbike']%}
+
+             <tbody>
+        <tr>
+            <td>{{loop.index}}</td>
+            <td>{{row['shop_name']}}</td>
+            
+            <td>{{row['bike'] }}</td>
+            <td>{{row['model'] }}</td>
+            
+            <td>{{row['brand'] }}</td>
+            
+            <td>{{row['color'] }}</td>
+            <td><img src="/{{row['image']}}" width="100" height="100"></td>
+            <td>{{row['amount']}}</td>
+            <td><a class="btn btn-success" href="admin_viewblog?bid={{row['bike_id']}}">View Blog</a></td>
+            <td><a class="btn btn-success" href="admin_viewcomments?bid={{row['bike_id']}}">View Comments</a></td>
+            
+            
+            
+            
+        </tr>
+        {% endfor %}
+    </tbody>
+   
+        </table>
+    </form>
+</center>  
+                   
+
+{% include 'footer.html'%}
